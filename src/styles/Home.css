@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Lato&display=swap");
+.home {
+  padding: 0px !important;
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+.home #content {
+  color: white;
+  margin: 0px !important;
+  padding: 50px 0px !important;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(23, 26, 68, 1) 7%,
+    #1f1e51 31%,
+    #1f1e51 41%,
+    #1f1e51 51%,
+    #1f1e51 61%,
+    #1f1e51 71%,
+    rgba(23, 26, 68, 1) 93%
+  );
+}
+.home #content #stats p {
+  margin-bottom: 10px;
+}
+.home #bgimg {
+  width: 100%;
+  position: relative;
+}
+.home #bgimg img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.home #content #stats {
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.home #content #stats > div {
+  border-right: 1px solid #4c4060;
+  padding: 0px;
+  width: 250px;
+  height: 70px !important;
+  text-align: center;
+}
+.home #content #stats > div p:first-of-type {
+  font-size: 20px;
+}
+.home #content #stats > div p:nth-of-type(2) {
+  color: #7c738a;
+}
+.home #content #favourites {
+  padding: 50px 0px;
+}
+.home #content #favourites > p {
+  text-align: center;
+  font-size: 26px;
+  padding: 20px 0px;
+}
+.home #content #favourites > p:nth-of-type(2) {
+  font-size: 18px;
+  color: #bf7fb2;
+}
+.home #content #favourites .card {
+  height: 300px;
+  border-radius: 10px;
+  border: 0px !important;
+}
+.home #content #favourites .card img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.home #content #favourites .card-body {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+}
+.home #content #favourites .card .card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+.home #content #favourites .card .card-text {
+  color: white;
+}
+.home #jumbotron {
+  position: absolute;
+  top: 200px;
+  left: 20vw;
+  z-index: 10;
+  width: 60vw;
+  margin-left: auto;
+  color: white;
+}
+.home #jumbotron > p {
+  font-size: 60px;
+  text-align: center;
+}
+.home #jumbotron #searchBox {
+  width: 80%;
+  margin-left: 10%;
+  padding: 0px 7px 0px 20px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.home #jumbotron #searchBox input {
+  margin-top: 8px;
+  padding: 5px 0px;
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  color: #bf7fb2;
+}
+.home #jumbotron #searchBox input:focus {
+  outline: none;
+  border: none;
+}
+.home #jumbotron #searchBox button {
+  width: 20%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(
+    90deg,
+    rgba(214, 133, 182, 1) 0%,
+    rgba(170, 159, 216, 1) 58%
+  );
+}

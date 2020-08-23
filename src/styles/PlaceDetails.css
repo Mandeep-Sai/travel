@@ -1,0 +1,59 @@
+.placeDetails {
+  padding: 0px;
+  position: relative;
+}
+.placeDetails > img {
+  width: 98.7vw;
+  height: 100%;
+}
+.placeDetails #title {
+  position: absolute !important;
+  width: 200px;
+  top: 25%;
+  left: 42vw;
+  text-align: center;
+  z-index: 10;
+  color: white;
+  font-size: 60px;
+  font-weight: 650;
+  letter-spacing: 6px;
+  text-align: center;
+}
+.placeDetails #packages {
+  display: block !important;
+  width: 200px;
+  position: absolute !important;
+  top: 35% !important;
+  text-align: center;
+  left: 42vw;
+}
+.placeDetails #packages button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-weight: bold;
+  background-color: transparent;
+}
+.placeDetails #packages p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.placeDetails #packages p:before {
+  content: "";
+  width: 100%;
+  border-bottom: solid 1px #fff;
+  position: absolute;
+  left: -90%;
+  top: 17%;
+  z-index: 10;
+}
+.placeDetails #packages p:after {
+  content: "";
+  width: 100%;
+  border-bottom: solid 1px #fff;
+  position: absolute;
+  left: 90%;
+  top: 17%;
+  z-index: 10;
+}

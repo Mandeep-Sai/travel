@@ -1,0 +1,18 @@
+.navigation {
+  position: absolute;
+  z-index: 10;
+  color: white;
+}
+.navigation > div {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10vw;
+}
+.navigation #items {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation #items p {
+  margin: 0px 20px;
+}

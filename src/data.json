@@ -1,0 +1,42 @@
+[
+    {
+        "sno": 1,
+        "country": "Germany",
+        "name": "Hannover",
+        "bgImg": "https://i.pinimg.com/originals/76/5e/86/765e862c26e2130e6889c57ad59e0810.jpg",
+        "images": [
+            "https://www.pwc.de/content/dam/pwc/de/de/images/hannover-skyline-1600x900.jpg"
+        ],
+        "description": "nice place"
+    },
+    {
+        "sno": 2,
+        "country": "Germany",
+        "name": "Berlin",
+        "bgImg": "https://kabacademy.eu/content/uploads/sites/5/2019/05/Germany-Berlin-Catedral-Wallpaper-hd.jpg",
+        "images": [
+            "https://images4.alphacoders.com/552/thumb-1920-552459.jpg"
+        ],
+        "description": ""
+    },
+    {
+        "sno": 3,
+        "country": "Germany",
+        "name": "Hannover",
+        "bgImg": "https://wallpapercave.com/wp/wp4171973.jpg",
+        "images": [
+            "https://www.pwc.de/content/dam/pwc/de/de/images/hannover-skyline-1600x900.jpg"
+        ],
+        "description": "nice place"
+    },
+    {
+        "sno": 4,
+        "country": "Germany",
+        "name": "Berlin",
+        "bgImg": "https://kabacademy.eu/content/uploads/sites/5/2019/05/Germany-Berlin-Catedral-Wallpaper-hd.jpg",
+        "images": [
+            "https://images4.alphacoders.com/552/thumb-1920-552459.jpg"
+        ],
+        "description": ""
+    }
+]
